@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),url('net.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 0.625rem 7%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.logo {
+  display: block;
+  width: 9.25rem;
+  height: auto;
+  transform-origin: 0px 0px;
+  cursor: pointer;
+}
+
+nav button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.lang-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  border: 1px solid white;
+  border-color: gray;
+  line-height: 1.25rem;
+  padding-top: .375rem;
+  padding-right: 0.25rem;
+  padding-bottom: .375rem;
+  padding-left: calc(.75rem + .1rem + .5rem);
+  min-width: auto;
+}
+
+.lang-button img {
+  width: 0.625rem;
+  height: 0.3125rem;
+  padding: 0.4375rem;
+}
+
+.signin-button {
+  background-color: #e50914;
+  color: white;
+  border: .0714rem solid #e50914;
+  margin: 1rem;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
+  height: 32px;
+  width: 75px;
+  padding: 0;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.center-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 6.25rem;
+}
+
+.center-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+}
+
+.center-content h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+}
+
+.center-content h3 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+}
+
+.signup-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form input {
+  width: 50%;
+  padding: 0.9375rem;
+  border: none;
+  border-radius: 0.3125rem 0 0 0.3125rem;
+  font-size: 1rem;
+}
+
+.signup-form button {
+  padding: 0.9375rem 1.875rem;
+  border: none;
+  background-color: #e50914;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0 0.3125rem 0.3125rem 0;
+  margin-top: 0;
+}
+
+.signup-form button:hover {
+  background-color: #f40612;
+}
+
+.signup-form input:focus {
+  outline: none;
+}
+
+.signup-form button:focus {
+  outline: none;
+}
+
+.text_img_container {
+  padding: 3.125rem 8%;
+  font-size: 1.5rem;
+}
+
+.row {
+  display: flex;
+  padding: 1.25rem 8%;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.text-col {
+  flex-basis: 50%;
+  margin-bottom: 3.125rem;
+}
+
+.image {
+  flex-basis: 50%;
+  flex: 1;
+  margin-bottom: 3.125rem;
+}
+
+.image img {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.text_img_container1 {
+  padding: 3.125rem 8%;
+  font-size: 1.5rem;
+}
+
+.row1 {
+  display: flex;
+  padding: 1.25rem 8%;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.text-col1 {
+  flex: 1;
+  margin-bottom: 3.125rem;
+}
+
+.image1 {
+  flex: 1;
+  margin-bottom: 3.125rem;
+}
+
+.image1 img {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.text {
+  margin-top: 1.25rem;
+  padding: 1.25rem;
+}
+
+.col {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+button {
+  margin-top: 0.625rem;
+  padding: 1.25rem 15%;
+  color: #fff;
+  font-size: 1.5rem;
+  background: rgb(67, 67, 67);
+}
+
+.center-button {
+  display: grid;
+  padding: 0.625rem 1.25rem;
+  font-size: 1rem;
+  text-align: start;
+  border: 1px solid transparent;
+  border-radius: 0;
+  background-color: #202123;
+  color: white;
+  margin-left: 20%;
+  width: 60%;
+  margin-bottom: 0.625rem;
+}
+
+.center-button:hover {
+  background-color: #505151;
+}
+
+.center-button:active {
+  background-color: #202123;
+}
+
+.center-button:focus {
+  outline: none;
+}
+
+.footer,
+.footer a {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.footer p {
+  margin: 1.5rem;
+}
+
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+.footer li {
+  line-height: 1.9;
+}
